@@ -1,0 +1,8 @@
+site_name: "Eventgen"
+site_description: "Eventgen"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

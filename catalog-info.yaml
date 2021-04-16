@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Eventgen"
+  description: "Eventgen"
+  annotations:
+    github.com/project-slug: tonytam-splunk/eventgen-backstage
+    backstage.io/techdocs-ref: url:https://github.com/tonytam-splunk/eventgen-backstage
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "tonytam-splunk"
