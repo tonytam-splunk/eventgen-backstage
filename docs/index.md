@@ -1,28 +1,29 @@
-## Eventgen
+# What is Eventgen?
 
-Eventgen
+Splunk Event Generator (Eventgen) is a utility that helps users easily build real-time event generators and eliminates the need for one-off, hard-coded event generators.
 
-## Getting started
-
-Start write your documentation by adding more markdown (.md) files to this folder (/docs) or replace the content in this file.
+**Eventgen features:**
+* Allows every type of events or transactions to be modeled
+* Allows users to quickly build robust configuration-based event generators without having to write code
+* Can be executed inside of Splunk (relying on a common event generation framework) as well as outside of Splunk
+* Event output can easily be directed to a Splunk input (modular inputs, HEC, etc.), a text file, or any REST endpoint in an extensible way
+* Easily configurable to make fake data look as real as possible, either by ordering events and token replacements by time of the day or by allowing generators to replay real data replacing current time by generating data exactly at the same time intervals as the original data
+* For scenarios in which simple token replacements do not work, developers can quickly build sophisticated event generators by writing a generator plugin module while re-using the rest of the framework
 
 ## Table of Contents
 
-The Table of Contents on the right is generated automatically based on the hierarchy
-of headings. Only use one H1 (`#` in Markdown) per file.
+* [Getting Started](SETUP.md)
+    * [Install](SETUP.md#install)
+    * [Configure](CONFIGURE.md)
+    * [Upgrade](UPGRADE.md)
+* [Tutorial](TUTORIAL.md)
+* [Basics](BASICS.md)
+* [Plugins](PLUGINS.md)
+* [Architecture](ARCHITECTURE.md)
+* [Contribute](CONTRIBUTE.md)
+* [Performance](PERFORMANCE.md)
+* [Reference](REFERENCE.md)
+    * [eventgen.conf.spec](REFERENCE.md#eventgenconfspec)
+    * [REST API Reference](REFERENCE.md#rest-api-reference)
+* [Changelog](CHANGELOG.md)
 
-## Site navigation
-
-For new pages to appear in the left hand navigation you need edit the `mkdocs.yml`
-file in root of your repo. The navigation can also link out to other sites.
-
-Alternatively, if there is no `nav` section in `mkdocs.yml`, a navigation section
-will be created for you. However, you will not be able to use alternate titles for
-pages, or include links to other sites.
-
-Note that MkDocs uses `mkdocs.yml`, not `mkdocs.yaml`, although both appear to work.
-See also <https://www.mkdocs.org/user-guide/configuration/>.
-
-## Support
-
-That's it. If you need support, reach out in [#docs-like-code](https://discord.com/channels/687207715902193673/714754240933003266) on Discord.
