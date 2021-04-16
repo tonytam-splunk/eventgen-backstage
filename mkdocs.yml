@@ -2,7 +2,18 @@ site_name: "Eventgen"
 site_description: "Eventgen"
 
 nav:
-  - Introduction: index.md
+  - What is Eventgen: index.md
+  - Getting Started: SETUP.md
+  - Configure: CONFIGURE.md
+  - Upgrade: UPGRADE.md
+  - Tutorial: TUTORIAL.md
+  - Basic: BASICS.md
+  - Plugins: PLUGINS.md
+  - Architecture: ARCHITECTURE.md
+  - Contribute: CONTRIBUTE.md
+  - Performance: PERFORMANCE.md
+  - Reference: REFERENCE.md
+  - ChangeLog: CHANGELOG.md
 
 plugins:
   - techdocs-core
