@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: "Eventgen"
   description: "Eventgen"
+  links:
+    - url: https://splunkbase.splunk.com/app/1924/#/overview
+      title: Eventgen Splunk App (Splunk Base)
   annotations:
     github.com/project-slug: tonytam-splunk/eventgen-backstage
     backstage.io/techdocs-ref: url:https://github.com/tonytam-splunk/eventgen-backstage
